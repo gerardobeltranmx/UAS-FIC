@@ -1,3 +1,4 @@
 # Universidad Autónoma de Sinaloa
-## Posgrado en Ciencias de la Información
-### Programacion para el Procesamiento de Datos
+## Facultad de Informatica Culiacán
+### Licenciatura en Informatica
+#### Lenguajes de Programación
