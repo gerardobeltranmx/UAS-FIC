@@ -1,4 +1,4 @@
 # Universidad Autónoma de Sinaloa
 ## Facultad de Informatica Culiacán
-### Licenciatura en Informatica
+### Licenciatura en Informática
 #### Lenguajes de Programación
