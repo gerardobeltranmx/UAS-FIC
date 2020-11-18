@@ -4,25 +4,53 @@ int suma(int a, int b);
 int resta(int a, int b);
 int multiplica(int a, int b);
 int divide(int a, int b);
-
+int operacion (int a, int b, char op);
+int k;
+int resultado;
 int main()
 {
-    int k;
-    k= suma(61,7);
+    //int k;
+    k= operacion(61, 7, '+');
     
     printf("El valor de K es %d\n", k);
 
-    k= resta(61,7);
-        printf("El valor de K es %d\n", k);
+    k= operacion(61,7, '-');
+    printf("El valor de K es %d\n", k);
  
-    k= multiplica(61,7);
+    k= operacion(61,7, '*');
      printf("El valor de K es %d\n", k);
 
-    k= divide(61,7);
+    k= operacion(61,7, '/');
      printf("El valor de K es %d\n", k);
 
     return 0;
 }
+
+int operacion (int a, int b, char op){
+   // int resultado;
+    switch(op){
+        case '+':
+          resultado = suma(a,b);
+          break;
+        
+        case '-':
+          resultado = resta(a,b);
+          break;
+
+        case '*':
+          resultado = multiplica(a,b);
+          break;
+
+        case '/':
+          resultado = divide(a,b);
+          break;
+        
+    }
+    
+    return resultado;
+}
+
+
 
 int suma(int a, int b){
     int c;
