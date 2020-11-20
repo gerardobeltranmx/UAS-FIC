@@ -38,6 +38,6 @@ int main(int argc, char const *argv[])
 
     printf("El peor recorrido fue la semana %d con %d kilometros en el dia %d\n",
              semanaMenor, recorridoMenor, diaMenor);
-
+  
     return 0;
 }
