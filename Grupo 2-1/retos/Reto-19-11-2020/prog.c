@@ -32,7 +32,7 @@ int main(int argc, char const *argv[])
              semanaMenor = i;
          } 
    }   
-
+  
     printf("El mejor recorrido fue la semana %d con %d kilometros en el dia %d\n",
             semanaMayor, recorridoMayor, diaMayor);
 
