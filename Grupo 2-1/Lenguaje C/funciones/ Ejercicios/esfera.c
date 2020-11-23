@@ -5,7 +5,7 @@ double areaEsfera(double radio){
     double area;
     area = 4 * PI * radio*radio;
     return area;
-}./rd
+}
 
 
 double volumenEsfera(double radio){
