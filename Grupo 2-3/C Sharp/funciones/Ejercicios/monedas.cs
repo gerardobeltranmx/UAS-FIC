@@ -1,8 +1,6 @@
 using System;
-
 class Principal
 {
-
 static int CambiarMonedas(ref int cantidad, int tipo){
    int num;
    num = cantidad / tipo;
@@ -21,7 +19,7 @@ static void Main(){
    Console.WriteLine("De 25  hay {0}", CambiarMonedas(ref dinero, 25)); 
    Console.WriteLine("De 10  hay {0}", CambiarMonedas(ref dinero, 10)); 
    Console.WriteLine("De 5   hay {0}", CambiarMonedas(ref dinero, 5)); 
-   Console.WriteLine("De 1 hay {0}", CambiarMonedas(ref dinero, 1)); 
+   Console.WriteLine("De 1   hay {0}", CambiarMonedas(ref dinero, 1)); 
 
 }
 
