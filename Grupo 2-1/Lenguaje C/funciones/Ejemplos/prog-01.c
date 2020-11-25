@@ -11,7 +11,9 @@ void interCambiar(int *a, int *b){
    aux = (*a);
    (*a) = (*b);
    (*b) = aux;
-    
+
+    printf("a = %p\n", a);
+    printf("a = %d\n", (*a));
 }
 int main()
 {
@@ -20,6 +22,8 @@ int main()
   
     interCambiar(&x, &y);
     printf("x = %d\n", x);
+    printf("direccion de x = %p\n", &x);
+
     printf("y = %d\n", y);
     
   
