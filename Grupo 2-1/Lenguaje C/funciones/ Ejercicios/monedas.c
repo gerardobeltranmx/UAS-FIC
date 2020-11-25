@@ -9,8 +9,8 @@ int cantidadBilletes(int *dinero, int tipo){
 
 int main()
 {
-
-    int cantidad = 5456;
+   int cantidad;
+    scanf ("%d", &cantidad);
     printf("De 500 hay %d\n",cantidadBilletes(&cantidad, 500));
     printf("De 200 hay %d\n", cantidadBilletes (&cantidad , 200));
     printf("De 100 hay %d\n", cantidadBilletes (&cantidad , 100));
