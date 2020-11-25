@@ -8,9 +8,9 @@ void incrementar(int *a){
 
 void interCambiar(int *a, int *b){
    int aux;
-   aux = *a;
-   *a = *b;
-   *b = aux;
+   aux = (*a);
+   (*a) = (*b);
+   (*b) = aux;
     
 }
 int main()
