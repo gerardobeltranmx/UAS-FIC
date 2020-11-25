@@ -11,7 +11,8 @@ static int CambiarMonedas(ref int cantidad, int tipo){
 }
 static void Main(){
 
-   int dinero = 4565;
+   
+   int dinero = int.Parse(Console.ReadLine());
 
    Console.WriteLine("De 500 hay {0}", CambiarMonedas(ref dinero, 500)); 
    Console.WriteLine("De 200 hay {0}", CambiarMonedas(ref dinero, 200)); 
