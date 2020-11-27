@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define PI  3.14159
+#define PI  3.1416
 
 void dimensionesEsfera(double radio, double *volumen, double *area){
     *volumen = (4.0/3) * PI * radio*radio*radio;
