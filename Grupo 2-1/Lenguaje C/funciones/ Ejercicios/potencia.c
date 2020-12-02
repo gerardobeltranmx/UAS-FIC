@@ -20,8 +20,6 @@ int potencia_recursiva (int a, int b){
         return a;
       else 
           return a * potencia_recursiva (a, b-1);  
-
-
     
     /*
       pot(5, 3) = 5 * 5 * 5
