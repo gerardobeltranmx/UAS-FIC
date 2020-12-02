@@ -29,9 +29,6 @@ class Principal
          pot (3, 2) = 3 * pot(3, 1)
          pot (3, 1) = 3
 
-
-
-
 */
 
 
