@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+int buscar(int pos, int v[]){
+    return v[pos];
+}
 int main()
 {
     int N, M, b;
@@ -14,7 +16,8 @@ int main()
     scanf("%d", &M);
     for (int i=0; i<M; i++){
         scanf("%d", &b);
-        printf("%d ", datos[b-1]);
+        int valor = buscar(b-1, datos);
+        printf("%d ", valor);
 
     }
 
