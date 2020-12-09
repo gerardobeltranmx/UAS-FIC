@@ -22,9 +22,13 @@ class Principal
     }
 
     static void Main(){
-     
-     
+        int x, y;
+        string []datos;
+        datos = Console.ReadLine().Split(' ');
+        x = int.Parse(datos[0]);
+        y = int.Parse(datos[1]);
 
-
+        
+        
     }
 }
