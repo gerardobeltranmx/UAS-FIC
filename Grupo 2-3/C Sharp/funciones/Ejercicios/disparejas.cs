@@ -22,13 +22,14 @@ class Principal
     }
 
     static void Main(){
-        int x, y;
+        int x, y, p, q, r;
         string []datos;
         datos = Console.ReadLine().Split(' ');
         x = int.Parse(datos[0]);
         y = int.Parse(datos[1]);
-
-        
-        
+        p = tipoPareja(x, y);
+        q = tipoPareja(x, x);
+        r = tipoPareja(y, y); 
+        Console.WriteLine("{0} {1} {3}", p, q, r);
     }
 }
