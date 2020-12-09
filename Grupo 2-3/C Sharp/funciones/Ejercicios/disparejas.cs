@@ -10,7 +10,7 @@ class Principal
         return suma;
     }
 
-    int tipoPareja(int m, int n){
+    static int tipoPareja(int m, int n){
         if( s(m)==n && s(n) == m)
             return 0;
         else if( s(m)<=n && s(n) <= m)   
