@@ -23,8 +23,13 @@ int tipoPareja(int m, int n){
 }
 int main()
 {
-    int x, y;
+    int x, y, p, q, r;
     scanf("%d %d", &x, &y);
 
+    p = tipoPareja(x, y);
+    q = tipoPareka(x, x);
+    r = tipoPareja(y, y);
+
+    printf("%d %d %d\n", p, q, r);
     return 0;
 }
