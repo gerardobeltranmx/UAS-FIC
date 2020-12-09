@@ -30,6 +30,6 @@ class Principal
         p = tipoPareja(x, y);
         q = tipoPareja(x, x);
         r = tipoPareja(y, y); 
-        Console.WriteLine("{0} {1} {3}", p, q, r);
+        Console.WriteLine("{0} {1} {2}", p, q, r);
     }
 }
